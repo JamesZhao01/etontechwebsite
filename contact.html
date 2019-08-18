@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- 	<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet"> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="container-fluid px-0">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarText">
+						<ul class="navbar-nav ml-auto mr-auto py-1">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">SERVICES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="faq.html">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="gallery.html">GALLERY</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="contact.html">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="container main-body">
+			<div class="p-3">
+				<a href="index.html"><img src="res/logo.jpg" class="logo"/></a>
+				<span class="align-middle header mx-3"><a href="index.html">EtonTech Innovations</a></span>
+			</div>
+			<div class="text-center">
+				<img class="img-fluid banner text-center" src="res/banner.jpg" />
+			</div>
+			<div class=" p-3 mx-auto">
+				<div class="sub-header">CONTACT</div>
+				<br />
+				<div class="content-body">
+					<i>EtonTech Innovations, LLC<br />100 Shoreline Hwy<br />Bldg B, Suite 100<br />Mill Valley, CA 94941</i>
+					<br />
+					<br />
+					<b>Email:</b>
+					<script>
+						var num1 = "e";
+						var num3 = "ton";
+						var num2 = ".com";
+						var num4 = "net";
+						var num5 = " ";
+						num1 = "support" + "@" + num1 + num3 + num4 + num2;
+						document.write('<a href = "mailto:');
+						for (var i = 0; i < num1.length; i++) {
+							document.write(num1.charAt(i));
+						}
+						document.write('">');
+						for (var i = 0; i < num1.length; i++) {
+							document.write("<span>" + num1.charAt(i) + "</span>");
+						}
+						document.write("</a>");
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid px-0 py-2 bg-black">
+			<div class="container footer-wrapper row mx-auto">
+				<div class="copyright col-lg-6">EtonTech Innovations LLC. All rights reserved.</div>
+				<div class="footer-links col-lg-6 navbar navbar-expand py-0">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link" href="index.html">HOME</a>
+						<a class="nav-item nav-link" href="about.html">ABOUT</a>
+						<a class="nav-item nav-link" href="services.html">SERVICES</a>
+						<a class="nav-item nav-link" href="faq.html">FAQ</a>
+						<a class="nav-item nav-link" href="gallery.html">GALLERY</a>
+						<a class="nav-item nav-link" href="contact.html">CONTACT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

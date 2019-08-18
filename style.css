@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "Roboto-Light";
+	src: url("res/fonts/Roboto-Light.ttf");
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("res/fonts/Roboto-Regular.ttf");
+}
+
+nav {
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+nav li {
+	font-size: 14px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+span a {
+	color: black;
+}
+span a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.logo {
+	width: 106px;
+	height: 106px;
+	object-fit: contain;
+}
+
+/* banner header */
+
+.sub-header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 25px;
+	font-family: "Helvetica";
+	font-weight: bold;
+}
+
+/*commonly used*/
+
+.main-body {
+	max-width: 1000px;
+	min-height: calc(100vh - 127px);
+}
+
+.content-body {
+	line-height: 22px;
+	font-family: "Times New Roman";
+	font-size: 18px;
+}
+
+.header {
+	font-size: 48px;
+	font-family: "Roboto-Light";
+}
+
+/*index*/
+
+.content-headers {
+	font-size: 40px;
+	font-family: "Roboto-Light";
+}
+
+.content-headers b {
+	font-family: "Roboto";
+}
+
+.read-more {
+	font-family: "Helvetica";
+	font-size: 12px;
+	color: gray;
+	transition: color 0.33s;
+}
+
+.read-more:hover {
+	color: darkorange;
+	text-decoration: none;
+}
+
+/*services*/
+.source {
+	width: 225px;
+	height: 150px;
+	object-fit: contain;
+}
+
+/*gallery*/
+
+.gallery img {
+	transition: opacity 0.15s;
+}
+
+.gallery img:hover {
+	opacity: 0.75;
+}
+
+/*footer*/
+
+.footer-wrapper {
+	max-width: 1000px;
+	color: white;
+	font-size: 15px;
+	font-family: "Helvetica";
+}
+
+.copyright {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-link {
+	transition: color 0.33s;
+}
+
+.footer-wrapper .navbar a.nav-item {
+	color: white;
+	font-size: 12px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-right: 1px gray solid;
+	transition: color 0.33s;
+}
+
+.footer-wrapper .navbar .nav-item:last-child {
+	border-right: 0px lightgray solid;
+}
+
+.footer-wrapper .navbar .nav-item:hover {
+	color: gray;
+}
+
+.caption-text {
+	line-height: 22px;
+}
+
+@media (max-width: 992px) {
+	.main-body {
+		max-width: 1000px;
+		min-height: calc(100vh - 159px);
+	}
+	.copyright {
+		margin-bottom: 5px;
+	}
+	.footer-wrapper div {
+		text-align: center;
+	}
+	.footer-wrapper div div {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
